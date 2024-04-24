@@ -1,14 +1,12 @@
-
-import { Button } from './components/ui/button';
+import Sidebar from "./components/sidebar/Sidebar";
+import { Button } from "./components/ui/button";
 
 function App() {
-    return (
-        <>
-
-            <Button variant="destructive">Here</Button> <br /><br />
-            <div className="text-red-500">Hello world</div>
-        </>
-    )
+  return (
+    <>
+      <Sidebar />
+    </>
+  );
 }
 
-export default App
+export default App;
